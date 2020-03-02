@@ -1,0 +1,39 @@
+body{
+    font-family: monospace;
+    margin: 0;
+}
+
+ul{
+    list-style-type:none;
+    float: right;
+    margin-top: 20px;
+}
+
+img, ul, li, h1{
+    display: inline-block;
+
+}
+
+li{
+    width: 120px;
+    text-align: center;
+    font-size: 15px
+}
+
+#header{
+    border-bottom: 1px solid;
+}
+
+#banner {
+    text-align: center;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    color: white;
+}
+
+#banner p{
+    padding-top: 260px;
+}
